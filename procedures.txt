@@ -1,0 +1,3 @@
+
+Instalar graphvis en la compu local
+go get github.com/goccy/go-graphviz

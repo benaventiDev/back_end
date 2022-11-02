@@ -1,0 +1,42 @@
+digraph G {
+graph[bgcolor="#141D26" margin=0]
+rankdir="TB";
+node [shape=plaintext fontname= "Ubuntu" fontsize="14"];
+edge [style="invis"];
+
+"Disk report" [ label = <<TABLE CELLBORDER="2" BGCOLOR="BLACK" BORDER="2" COLOR="BLACK"  CELLSPACING="0">
+
+<TR><TD BGCOLOR="#1c2833" COLSPAN="100"><FONT POINT-SIZE="20" COLOR="#f2f3f4">Disk Report of: 	archivos/disk.dk</FONT></TD></TR><TR>
+
+<TD HEIGHT="150" WIDTH="75" BGCOLOR="#c0392b">MBR</TD>
+
+<TD HEIGHT="160" WIDTH="150" BGCOLOR="#229954">part1<br/><br/>Primary<br/><br/><b>5 MB</b><br/><b>5% of the disk.</b><br/></TD>
+<TD HEIGHT="160" WIDTH="150" BGCOLOR="#5d6d7e"><TABLE ALIGN="LEFT"><TR><TD>part2<br/><br/>Extended<br/><br/><b>5 MB</b><br/><b>5% of the disk.</b><br/></TD>
+</TR><TR>
+<TD>
+<TABLE BORDER="0">
+<TR>
+<TD><TABLE BORDER="1"><TR>
+<TD HEIGHT="160" WIDTH="40" BGCOLOR="#2471a3">EBR</TD><TD HEIGHT="160" WIDTH="150" BGCOLOR="#2471a3"><br/>part5<br/><br/>Lógica<br/><br/>2 MB<br/><b>2% of the disk</b>
+<br/>
+</TD></TR></TABLE></TD>
+
+<TD><TABLE BORDER="1"><TR>
+<TD HEIGHT="160" WIDTH="40" BGCOLOR="#2471a3">EBR</TD><TD HEIGHT="160" WIDTH="120" BGCOLOR="#2471a3">part6<br/><br/>Lógica<br/><br/><b>2% of the disk</b>
+<br/>
+</TD></TR></TABLE></TD>
+
+<TD><TABLE BORDER="1"><TR>
+<TD HEIGHT="160" WIDTH="150" BGCOLOR="#b7950b">FREE<br/><br/><b>1% of the disk.</b></TD>
+</TR></TABLE></TD></TR>
+</TABLE>
+</TD>
+
+</TR>
+</TABLE>
+</TD><TD HEIGHT="160" WIDTH="150" BGCOLOR="#b7950b">FREE<br/><br/><b>89% of the disk.</b></TD>
+
+</TR>
+
+</TABLE>>];
+}
